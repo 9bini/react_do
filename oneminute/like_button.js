@@ -2,6 +2,7 @@
 
 const e = React.createElement;
 
+// 컴포넌트 정의
 class LikeButton extends React.Component {
   constructor(props) {
     super(props);
