@@ -150,6 +150,7 @@ function Avater(props){
 
 props의 이름은 사용될 context가 아닌 컴포넌트 자체의 관점에서 짓는것을 권장합니다.
 > 고립도를 올리기 위해서? 활용도를 위해서 인가?
+> 추출 단위를 익히는 게 중요한 듯하다.
 
 ```javascript
 function Comment(props) {
@@ -204,7 +205,7 @@ function Comment(props) {
 
 > user={props.author} 은 author정보만 넘기나??
 
-## props는 읽기 전용입니다.
+## props는 읽기 전용입니다
 
 함수 컴포넌트나 클래스 컴포넌트 모두 컴포넌트의 자체 props를 수정해서는 안 됩니다.
 
